@@ -16,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.annotation.GlideModule;
+import com.bumptech.glide.module.AppGlideModule;
 import com.codepath.flickster.DetailActivity;
 import com.codepath.flickster.R;
 import com.codepath.flickster.models.Movie;
@@ -23,6 +25,8 @@ import com.codepath.flickster.models.Movie;
 import org.parceler.Parcels;
 
 import java.util.List;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 public class MoviesAdapters extends RecyclerView.Adapter<MoviesAdapters.ViewHolder> {
 
